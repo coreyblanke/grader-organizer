@@ -4,7 +4,8 @@ A python program which helps optimize your computer science grading workflow. Bu
 ## Usage tl;dr
 Drop the python file anywhere on your machine, open a terminal and run it with the command ``` python3 gradecsv.py {args} ```, and follow the instructions in the --help menu (written below). 
 ## Usage
-```usage: gradecsv.py [-h] [-d DIRECTORY] [-o OUTPUT] [-n NUMCOLLABORATORS] [-i INPUTFILE] [-tl] {csv,zip,folder}
+```
+usage: gradecsv.py [-h] [-d DIRECTORY] [-o OUTPUT] [-n NUMCOLLABORATORS] [-i INPUTFILE] [-tl] {csv,zip,folder}
 
 positional arguments:
   {csv,zip,folder}      csv - create grade book; zip - mass unzip; folder - generate name folders from file
@@ -21,4 +22,5 @@ optional arguments:
   -i INPUTFILE, --inputfile INPUTFILE
                         csv mode - filename of student input file, include directory info if relevant; zip mode - directory containing zip files in
                         student folders
-  -tl, --toplevel       allow copying of top level files in zip mode```
+  -tl, --toplevel       allow copying of top level files in zip mode
+  ```
