@@ -1,9 +1,9 @@
-# grader-organizer
+# Grader-Organizer
 A python program which helps optimize your computer science grading workflow. Built to be run in barebones python across multiple platforms.
 
-## usage tl;dr
-drop the python file anywhere and run it with the command ``` python3 gradecsv.py {args} ```, and follow the instructions in the --help menu (written below)
-## usage
+## Usage tl;dr
+Drop the python file anywhere on your machine, open a terminal and run it with the command ``` python3 gradecsv.py {args} ```, and follow the instructions in the --help menu (written below).
+## Usage
 usage: gradecsv.py [-h] [-d DIRECTORY] [-o OUTPUT] [-n NUMCOLLABORATORS] [-i INPUTFILE] [-tl] {csv,zip,folder}
 
 positional arguments:
